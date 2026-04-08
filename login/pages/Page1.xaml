@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="login.pages.Page1"
+             Title="Page1">
+
+    <VerticalStackLayout>
+        <Label 
+            Text="INSTAGRAM"
+            VerticalOptions="Center"
+            FontAttributes="None"
+            TextColor="BlueViolet"
+            FontSize="Medium"
+            HorizontalOptions="Center"/>
+            <Label
+            Text=""
+            VerticalOptions="Center"
+            HorizontalOptions="Center"/>
+        <Label
+            Text=""
+            VerticalOptions="Center"
+            HorizontalOptions="Center"/>
+        <Label 
+            Text="username"
+            TextColor="CornflowerBlue"
+            FontSize="Small"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"/>
+            
+        
+        <Entry
+            Placeholder="Phone Number Or User Name"
+            TextColor="Blue"
+            BackgroundColor="FloralWhite"
+            x:Name="UserName"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+           />
+        <Label
+    Text=""
+    VerticalOptions="Center"
+    HorizontalOptions="StartAndExpand"/>
+
+        <Label 
+            Text="password"
+            TextColor="CornflowerBlue"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            FontSize="Small"/>
+            <Entry
+            Placeholder="enter Login  password "
+            TextColor="Black"
+            BackgroundColor="FloralWhite"    
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            x:Name="Password"
+            />
+        <Label
+    Text=""
+    VerticalOptions="Center"
+    HorizontalOptions="StartAndExpand"/>
+
+            <Button
+            Text="Log In"
+            TextColor="Black"
+                FontAttributes="Bold"
+            Clicked="SampleAlert"
+            BackgroundColor="BlueViolet"/>
+        <Label
+            Text="Forgot Your Login Details? GET HELP FROM LOGGINIG IN."
+            TextColor="Black"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"/>
+        <Label
+    Text=""
+    VerticalOptions="Center"
+    HorizontalOptions="Center"/>
+
+
+        <Label
+            Text="--------------------------------------or----------------------------------------"
+            TextColor="Black"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"/>
+        <Label
+    Text=""
+    VerticalOptions="Center"
+    HorizontalOptions="Center"/>
+        
+        <Label
+            Text="Login With Facebook"
+            TextColor="Blue"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"/>
+        <Label
+            Text=""
+            VerticalOptions="Center"
+            HorizontalOptions="Center"/>
+        <Label
+               Text=""
+               VerticalOptions="Center"
+               HorizontalOptions="Center"/>
+
+        <Button
+            Text="Sing Up Or Register"
+            FontAttributes="None"            
+            VerticalOptions="Center"
+            HorizontalOptions="Center"/>
+    </VerticalStackLayout>
+</ContentPage>
+    
+    
+    
+    
