@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="studentscompanion.views.loginpage"
+             Title="loginpage"
+             BackgroundColor="Black">
+    <Grid ColumnDefinitions="*,*" RowDefinitions="*,*">
+        <Grid BackgroundColor="Blue" Grid.Column="0">
+            <VerticalStackLayout VerticalOptions="Center" HorizontalOptions="Center">
+
+                <Label Text="Welcome User!"
+               TextColor="White"
+               FontSize="22"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"/>
+            </VerticalStackLayout>
+        </Grid>
+
+
+        <VerticalStackLayout>
+            <Label 
+            Text="student companion"
+                TextColor="Gold"
+                FontSize="22"
+                FontAttributes="Bold"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+            
+            
+            
+        </VerticalStackLayout>
+    </Grid>
+</ContentPage>
+    

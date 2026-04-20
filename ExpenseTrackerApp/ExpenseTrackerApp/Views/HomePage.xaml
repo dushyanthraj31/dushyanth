@@ -1,0 +1,27 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExpenseTrackerApp.Views.HomePage"
+             Title="Expenses">
+
+    <VerticalStackLayout Padding="20" Spacing="10">
+
+        <Button Text="Add Expense" Clicked="OnAddClicked"/>
+        <Button Text="Manage Categories" Clicked="OnCategoriesClicked"/>
+
+        <CollectionView ItemsSource="{Binding Expenses}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame Padding="10" Margin="5">
+                        <VerticalStackLayout>
+                            <Label Text="{Binding Title}" FontAttributes="Bold"/>
+                            <Label Text="{Binding Amount}" />
+                            <Label Text="{Binding Category.Name}" />
+                        </VerticalStackLayout>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+    </VerticalStackLayout>
+
+</ContentPage>

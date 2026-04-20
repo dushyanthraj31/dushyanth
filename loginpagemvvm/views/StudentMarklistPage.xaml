@@ -7,8 +7,8 @@
         <CollectionView.ItemTemplate>
             <DataTemplate>
                 <Frame Margin="10">
-                    <VerticalStackLayout>
-                        <Label  Text=""/>
+                    <HorizontalStackLayout>
+                        
                         <Label Text="Name" FontSize="18"/>
                         <Label Text="{Binding Name}"/>
                         <Label  Text=""/>
@@ -24,7 +24,7 @@
                         <Label Text="Total" FontSize="18"/>
                         <Label Text="{Binding Total}"/>
 
-                    </VerticalStackLayout>
+                    </HorizontalStackLayout>
                 </Frame>
             </DataTemplate>
         </CollectionView.ItemTemplate>
